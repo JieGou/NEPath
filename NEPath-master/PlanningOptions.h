@@ -4,7 +4,7 @@
 
 enum ConnectAlgorithm {
 	none, 
-	cfs, // Connector::ConnectedFermatSpiral_MultMinimum
+	cfs, // Connector::ConnectedFermatSpiral_MultMinimum 连通费马螺旋
 	dfs // Connector::ConnectedDFS
 };
 

@@ -122,7 +122,7 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(GUROBI_HOME)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>gurobi_c++mdd2019.lib;gurobi95.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <!-- <AdditionalDependencies>gurobi_c++mdd2019.lib;gurobi95.lib;%(AdditionalDependencies)</AdditionalDependencies> -->
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
